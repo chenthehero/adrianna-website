@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 
 const IllustrationPage = () =>(
   <Layout>
-    <Header headerText="This is the illustration page"/>
+    <Header headerText="Illustration"/>
   </Layout>
 )
 
