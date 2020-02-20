@@ -1,10 +1,12 @@
 import React from "react"
 import Header from "../components/header"
+import Layout from "../components/layout"
 
-export default () => (
-  <div style={{ color: `teal` }}>
-    <Header headerText="About Gatsby"/>
-    <Header headerText="This is cool"/>
-    <p>Such wow. Very React.</p>
-  </div>
+const AboutPage = () =>(
+  <Layout>
+    <Header headerText="This is the about page"/>
+  </Layout>
 )
+
+
+export default AboutPage
